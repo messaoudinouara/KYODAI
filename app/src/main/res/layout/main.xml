@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="@mipmap/herbe">
+
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="49dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="*Bienvenue dans l&apos;interface du jeu*"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingBottom="5dp"
+        android:textSize="18dp"
+        android:textColor="#030000"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <com.example.admin.kyodai.kyodaiView android:id="@+id/kyodai_View"
+        android:layout_width="317dp"
+        android:layout_height="318dp"
+        android:layout_gravity="center" />
+
+
+
+</FrameLayout>
+
+
